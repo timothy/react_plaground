@@ -47,7 +47,7 @@ class Button extends Component {
 
 const Result = (props) => {
     return (
-        <div>{props.counter}</div>
+        <div className="Test">{props.counter}</div>
     );
 };
 

@@ -38,7 +38,7 @@ class Button extends Component {
 
     render() {
         return (
-            <button onClick={this.handleClick} className="Test">
+            <button onClick={this.handleClick} className="Space">
                 +{this.props.incrementValue}
             </button>
         );
@@ -47,7 +47,7 @@ class Button extends Component {
 
 const Result = (props) => {
     return (
-        <div className="Test">{props.counter}</div>
+        <div className="Space">{props.counter}</div>
     );
 };
 
